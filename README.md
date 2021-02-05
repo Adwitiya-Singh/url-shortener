@@ -5,6 +5,7 @@ To run the challenge:
 - CLONE this repo
 - Set up your mongoDB Atlas credentials [here](https://docs.atlas.mongodb.com/getting-started/)
 - put your [mongoDB URI](https://docs.mongodb.com/manual/reference/connection-string/) in the `config/default.json` file
+- run `npm install && npm start`
 - Make a POST request to the `baseURL` in the `config/default.json` file with the long url as the body of the request:
 
 ```json
