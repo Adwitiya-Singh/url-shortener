@@ -2,7 +2,7 @@ Url shortening API built for the Rethink coding challenge.
 
 To run the challenge:
 
-- FORK this repo
+- CLONE this repo
 - Set up your mongoDB Atlas credentials [here](https://docs.atlas.mongodb.com/getting-started/)
 - put your [mongoDB URI](https://docs.mongodb.com/manual/reference/connection-string/) in the `config/default.json` file
 - Make a POST request to the `baseURL` in the `config/default.json` file with the long url as the body of the request:
@@ -12,7 +12,7 @@ To run the challenge:
     "longUrl": "https://www.amazon.com/gp/product/B08HLYRPYV/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1"
 }
 ```
--The server will respond with a shortenedURl if the url porvided is valid:
+- The server will respond with a shortenedURl if the url porvided is valid:
 ```json
 {
     "_id": "601dcf7ae0679656402cc9b6",
